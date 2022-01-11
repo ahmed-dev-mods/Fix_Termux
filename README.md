@@ -1,0 +1,13 @@
+pkg install python
+
+pip install webbrowser
+
+pkg install git
+
+git clone https://github.com/ahmed-dev-mods/Fix_Termux
+
+cd Fix_Termux
+
+chmod +x fix_Termux.py
+
+python fix_Termux.py
