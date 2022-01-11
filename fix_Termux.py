@@ -5,7 +5,7 @@ import sys
 import webbrowser
 
 #################################################################
-black = '\033[0;30m'
+black = '\033[37;1m'
 red = '\033[1;31m' #احمر
 X = '\033[1;33m' #اصفر
 red1 = '\033[2;31m' #احمر ثاني
@@ -84,7 +84,7 @@ def plugins():
     
 ###################################Libray#############################################
 def Libray():
-    print("∞"*60)
+    print("=>"*60)
     os.system('pip install requests')
     os.system('pip install pyfiglet')
     os.system('pip install sys')
@@ -214,14 +214,3 @@ while loop:
     elif what == "00":
         print("Good Bye 🤝")
         break
-
-#########################script################################
-# code open youtub
-#webbrowser.open("https://www.youtube.com/channel/UCmFOcRw0kbeazJK3tLy_cMw")
-# code clare terminal
-
-
-
-
-#Are you sure to download libraries?
-#Back to Menu?
