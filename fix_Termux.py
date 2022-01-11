@@ -79,7 +79,7 @@ def plugins():
     os.system("gem install lolcat -y")
     os.system("apt update -y && apt upgrade -y")
     os.system('cls' if os.name == 'nt' else 'clear') 
-    print(red1+"≠"*60)
+    print(red1+"≠>"*60)
     print(B+'Successfully downloaded ')
     
 ###################################Libray#############################################
@@ -133,7 +133,7 @@ def Libray():
     os.system('pip install re')
     os.system('pip install b')
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(red1+"≠"*60)
+    print(red1+"≠>"*60)
     print(B+'Successfully downloaded ')
     
 ####################################menu###########################################
